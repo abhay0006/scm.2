@@ -1,0 +1,21 @@
+app:
+  name: MyWebApp
+  version: 1.0.0
+  environment: production
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  ssl: true
+
+database:
+  engine: postgresql
+  host: localhost
+  port: 5432
+  name: mywebapp_db
+  username: admin
+  password: secretpassword
+
+logging:
+  level: info
+  file: /var/log/mywebapp.log
